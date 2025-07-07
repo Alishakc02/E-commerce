@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+    }
+    form {
+      border: 1px solid #ccc;
+      width: 300px;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="password"],
+    select,
+    textarea {
+      width: 100%;
+      margin-top: 5px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+<form>
+    <h3>Employee Form</h3>
+    
+    <label>Name</label>
+    <input type="text" name="name">
+
+    <label>Designation</label>
+    <select name="designation">
+      <option>Manager</option>
+      <option>Developer</option>
+      <option>Analyst</option>
+    </select>
+
+    <label>Salary</label>
+    <input type="password" name="salary">
+
+    <label>Specialization</label>
+    <input type="radio" name="spec" value="IT"> IT
+    <input type="radio" name="spec" value="Management"> management
+
+    <label>Hobbies</label>
+    <input type="checkbox" name="hobbies" value="travelling"> Travelling<br>
+    <input type="checkbox" name="hobbies" value="sports"> Sports<br>
+    <input type="checkbox" name="hobbies" value="reading"> Reading<br>
+    <input type="checkbox" name="hobbies" value="surfing"> Net surfing
+
+    <label>Address</label>
+    <textarea name="address" placeholder="please enter the address"></textarea>
+
+    <input type="Submit" value="Submit">
+    <input type="Reset" value="Reset">
+  </form>
+
+</body>
+</html>
