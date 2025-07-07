@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>HTML Table Layout</title>
+
+    <style>
+
+        table {
+
+            width: 80%;
+
+            height: 300px;
+
+            border-collapse: collapse;
+
+            margin: 50px auto;
+
+        }
+
+        td {
+
+            border: 1px solid black;
+
+            vertical-align: top;
+
+            padding: 10px;
+
+        }
+
+        .menu {
+
+            width: 30%;
+
+        }
+ .explanation {
+
+            width: 70%;
+
+            height: 70%;
+
+        }
+
+        .example {
+
+            height: 30%;
+
+        }
+
+        a {
+
+            display: block;
+
+            margin: 10px 0;
+
+            font-weight: bold;
+
+            text-decoration: underline;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+
+        <tr>
+
+            <td class="menu" rowspan="2">
+
+                <strong>MAIN MENU</strong><br><br>
+
+                <a href=“#">Lists</a>
+                <a href="#">Tables</a>
+
+                <a href="#">Frames</a>
+
+            </td>
+
+            <td class="explanation">
+
+                <strong>Explanation</strong><br><br>
+
+                -------------------------<br><br>
+
+                -------------------------<br><br>
+
+                <a href="#">View Example</a>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="example">
+
+                <strong>Example</strong>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
+
+
